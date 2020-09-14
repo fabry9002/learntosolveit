@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main()
+
+main()
 {
     int c;
     c = getchar();
@@ -8,3 +9,15 @@ int main()
         c = getchar();
     }
 }
+
+/* There is a 2nd version to do it*/
+
+/*
+main()
+{
+    int c;
+
+    while ((c=getchar()) != EOF)
+        putchar(c);
+}
+*/
